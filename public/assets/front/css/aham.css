@@ -1,0 +1,407 @@
+.theme-color {
+    color: #006696;
+}
+a:hover, a:focus {
+    color: #006696;
+}
+
+ul#primary-menu li.menu-item-has-children >a:after {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#header {
+    border-bottom: 0px solid #dedede;
+}
+
+.pub-item .pub-thumbnail {
+    border: 1px solid #E8E1E1;
+}
+
+.nav-tabs>li.active>a:after {
+    position: absolute;
+    content: "";
+    bottom: -2px;
+    left: -1px;
+    right: -1px;
+    height: 3px;
+    background-color: #006696;
+}
+
+.list-group-item.active a{
+  color: white;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #006696;
+    border-color: #337ab7;
+}
+
+.course-single-tab .tab-navigation li.active:after {
+    box-shadow: none;
+}
+
+.ol-tab .tab-navigation li.active:after {
+    background-color: #006696;
+}
+
+.head-main {
+    line-height: 60px !important;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.underline{
+	text-decoration: underline !important;
+}
+
+.btn-skin-blue {
+    background-color: #006696;
+    border-color: rgb(135, 183, 206);
+    color: #fff;
+}
+
+
+ul#primary-menu >li.solid > a:hover, ul#primary-menu >li.solid > a:focus 
+{
+    background-color: rgb(2, 117, 171);
+    color: white;
+}
+
+ul#primary-menu ul.sub-menu {
+    background-color: #006696;
+}
+
+ul#primary-menu li.menu-item-has-children ul.sub-menu li a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.icon-box p{
+    font-size:12px;
+}
+
+/*.icon-box.ib-v2.bg-ablue > a:hover i, .icon-box.ib-v2 > a:focus i {
+    border: none;
+    background-color: #006696;
+    color: #fff;
+}*/
+/*.icon-box.ib-v2.bg-agreen > a:hover i, .icon-box.ib-v2 > a:focus i {
+    border: none;
+    background-color: #34C424;
+    color: #fff;
+}
+*/
+
+
+/*.icon-box.ib-v2.bg-agreen > a > i:after {
+    border: 1px solid #34C424;
+}*/
+
+[class*="ov-grad9-"]:before {
+    background: #1C1C1B;
+    background: -webkit-linear-gradient(to left, #000000 , #1C1C1B);/* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #000000 , #1C1C1B);
+}
+
+[class*="ov-grad3-"]:before {
+    background: #989F98;/* fallback for old browsers */
+    background: linear-gradient(to left, #4E5757 ,#989F98 );
+}
+
+.course-el.set-bg:before {
+    opacity: 0.8;
+}
+.course-el.set-bg:hover:before, .course-el.set-bg:focus:before {
+    opacity: 0.5;
+}
+
+.icon-list.profile-navigation li {
+  padding-left: 10px;
+}
+
+.icon-list.profile-navigation li.active {
+    background: #ececec;
+    color: #666;
+    border-radius: 3px;
+}
+
+/**********/
+
+span.twitter-typeahead .tt-menu,
+span.twitter-typeahead .tt-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  font-size: 14px;
+  text-align: left;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+}
+span.twitter-typeahead .tt-suggestion {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #333333;
+  white-space: nowrap;
+}
+span.twitter-typeahead .tt-suggestion.tt-cursor,
+span.twitter-typeahead .tt-suggestion:hover,
+span.twitter-typeahead .tt-suggestion:focus {
+  color: #ffffff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #337ab7;
+}
+.input-group.input-group-lg span.twitter-typeahead .form-control {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+.input-group.input-group-sm span.twitter-typeahead .form-control {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+span.twitter-typeahead {
+  width: 100%;
+  display:block !important;
+}
+.input-group span.twitter-typeahead {
+  display: block !important;
+  height: 34px;
+}
+.input-group span.twitter-typeahead .tt-menu,
+.input-group span.twitter-typeahead .tt-dropdown-menu {
+  top: 32px !important;
+}
+.input-group span.twitter-typeahead:not(:first-child):not(:last-child) .form-control {
+  border-radius: 0;
+}
+.input-group span.twitter-typeahead:first-child .form-control {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.input-group span.twitter-typeahead:last-child .form-control {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.input-group.input-group-sm span.twitter-typeahead {
+  height: 30px;
+}
+.input-group.input-group-sm span.twitter-typeahead .tt-menu,
+.input-group.input-group-sm span.twitter-typeahead .tt-dropdown-menu {
+  top: 30px !important;
+}
+.input-group.input-group-lg span.twitter-typeahead {
+  height: 46px;
+}
+.input-group.input-group-lg span.twitter-typeahead .tt-menu,
+.input-group.input-group-lg span.twitter-typeahead .tt-dropdown-menu {
+  top: 46px !important;
+}
+
+a.tt-suggestion {
+    color: black !important;
+}
+
+a.tt-suggestion:hover {
+    color: #006696 !important
+}
+
+.text-left{
+  text-align: left;
+}
+
+.multiselect.btn-default {
+  padding: 8px 10px;
+  border-radius: 0;
+  text-transform: none;
+  font-weight: 400;
+  width: 100%;
+}
+.multiselect.btn-default,
+.multiselect.btn-default:hover,
+.multiselect.btn-default:focus,
+.multiselect.btn-default:active,
+.btn-group.open > .multiselect.btn-default.dropdown-toggle {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.multiselect.btn-default:focus,
+.btn-group.open > .multiselect.btn-default.dropdown-toggle {
+  border-bottom-color: #009688;
+  -webkit-box-shadow: 0 1px 0 #009688;
+  box-shadow: 0 1px 0 #009688;
+}
+.multiselect.btn-default.disabled {
+  border-bottom-style: dashed;
+}
+
+.multiselect.btn-lg {
+  padding-right: 36px;
+}
+.multiselect.btn-lg.btn-default {
+  padding-right: 27px;
+}
+.multiselect.btn-sm {
+  padding-right: 28px;
+}
+.multiselect.btn-sm.btn-default {
+  padding-right: 21px;
+}
+.multiselect.btn-xs {
+  padding-right: 24px;
+}
+.multiselect.btn-xs.btn-default {
+  padding-right: 18px;
+}
+.page-header-inverse .form-group .multiselect.btn-default,
+.navbar-inverse .navbar-form .multiselect.btn-default {
+  border-bottom-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+.page-header-inverse .form-group .btn-group.open > .multiselect.btn-default,
+.navbar-inverse .navbar-form .btn-group.open > .multiselect.btn-default,
+.page-header-inverse .form-group .multiselect.btn-default:focus,
+.navbar-inverse .navbar-form .multiselect.btn-default:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+  -webkit-box-shadow: 0 1px 0 #fff;
+  box-shadow: 0 1px 0 #fff;
+}
+.multiselect-container {
+  min-width: 180px;
+  max-height: 250px;
+  overflow-y: auto;
+}
+.multiselect-container > li {
+  padding: 0;
+}
+.multiselect-container > li > a {
+  padding: 0;
+}
+.multiselect-container > li > a > label {
+  display: block!important;
+  margin: 0;
+  height: 100%;
+  cursor: pointer;
+  padding: 9px 16px;
+  padding-left: 44px;
+}
+.navbar-form .multiselect-container > li > a > label {
+  display: block;
+}
+.multiselect-container > li > a .checker,
+.multiselect-container > li > a .choice {
+  top: 50%;
+  margin-top: -9px;
+  left: 16px;
+}
+.multiselect-container > li > a.multiselect-all label {
+  font-weight: 500;
+}
+.multiselect-container > li.disabled > a {
+  background-color: transparent;
+}
+.multiselect-container > li.disabled > a > label {
+  cursor: not-allowed;
+}
+.multiselect-container > li.multiselect-group > label,
+.multiselect-container > li.multiselect-group.active > label {
+  margin: 0;
+  padding: 9px 15px;
+  font-size: 11px;
+  line-height: 1.82;
+  color: #999999;
+  text-transform: uppercase;
+  margin-top: 16px;
+  background-color: transparent;
+  cursor: default;
+}
+.multiselect-container > li.multiselect-group.disabled {
+  color: #999999;
+}
+.multiselect-container > li.multiselect-group:first-child > label,
+.multiselect-container > li.multiselect-group:first-child.active > label {
+  margin-top: 8px;
+}
+.multiselect-container > li.multiselect-group.multiselect-group-clickable > label {
+  cursor: pointer;
+}
+.multiselect-container > li.multiselect-group.disabled label,
+.multiselect-container > li.multiselect-group.disabled:hover label,
+.multiselect-container > li.multiselect-group.disabled:focus label {
+  background-color: transparent;
+  cursor: not-allowed;
+}
+.multi-select-full > .btn-group {
+  width: 100%;
+}
+.multi-select-full > .btn-group .multiselect-container {
+  width: inherit;
+}
+.multi-select-full + .input-group-btn {
+  padding-left: 16px;
+}
+.multi-select-fixed > .btn-group > .btn {
+  width: 250px;
+}
+.multi-select-auto > .btn-group > .btn {
+  width: auto;
+}
+li.multiselect-filter {
+  position: relative;
+  padding: 8px 16px;
+  padding-left: 44px;
+  margin-bottom: 8px;
+}
+li.multiselect-filter i {
+  font-size: 14px;
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  margin-top: -7px;
+}
+.btn-group-multiselect {
+  width: 100%;
+}
+.btn-group-multiselect .btn {
+  float: none;
+}
+.btn-group-multiselect .multiselect {
+  min-width: 0;
+}
+
+ul#primary-menu li.menu-item-has-children >a:after{
+  font-size: 12px;
+}

@@ -1,0 +1,11 @@
+.alert.alert-styled-custom:after {
+  content: "\e601";
+}
+
+.daterangepicker {
+	z-index: 1061;
+}
+
+.daterangepicker.dropdown-menu {
+	z-index: 1061;
+}

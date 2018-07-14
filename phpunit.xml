@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         bootstrap="vendor/autoload.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false">
+    <testsuites>
+        <testsuite name="Feature">
+            <directory suffix="Test.php">./tests/Feature</directory>
+        </testsuite>
+
+        <testsuite name="Unit">
+            <directory suffix="Test.php">./tests/Unit</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">./app</directory>
+        </whitelist>
+    </filter>
+    <php>
+        <env name="APP_ENV" value="testing"/>
+        <env name="CACHE_DRIVER" value="array"/>
+        <env name="SESSION_DRIVER" value="array"/>
+        <env name="QUEUE_DRIVER" value="sync"/>
+        <env name="NEO_HOST" value="hobby-opjdldofeielgbkengbgcfpl.dbs.graphenedb.com"/>
+        <env name="NEO_PORT" value="24780"/>
+        <env name="NEO_USERNAME" value="neo4j"/>
+        <env name="NEO_PASSWORD" value="b.OND7X9POf1qA.4mBOjX4y5l26msnR"/>
+        <env name="CLOUDINARY_CLOUD_NAME" value="ahamlearning"/>
+        <env name="CLOUDINARY_API_KEY" value="329317296451341"/>
+        <env name="CLOUDINARY_API_SECRET" value="gm8kNMrlw-xGDHDu46lF2M7j-K4"/>
+    </php>
+</phpunit>

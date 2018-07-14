@@ -1,0 +1,21 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+// @import "variables";
+
+// Bootstrap
+
+$fa-font-path: "../../../metronic/tools/bower_components/font-awesome/fonts"
+	!default;
+@import "../../../metronic/tools/bower_components/font-awesome/css/font-awesome";
+@import "../../../metronic/tools/bower_components/socicon/css/socicon.css";
+@import "../../../metronic/tools/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css";
+@import "../../../metronic/theme/src/vendors/line-awesome/css/line-awesome.css";
+@import "../../../metronic/theme/src/vendors/flaticon/css/flaticon.css";
+@import "../../../metronic/theme/src/vendors/metronic/css/styles.css";
+@import "../../../node_modules/bxslider/dist/jquery.bxslider.css";
+@import "../../../metronic/tools/bower_components/fullcalendar/dist/fullcalendar.min.css";
+@import "../../../metronic/tools/bower_components/fullcalendar-scheduler/dist/scheduler.min.css";
+@import "../../../metronic/tools/bower_components/bootstrap-select/dist/css/bootstrap-select.css";
+// @import "../../../metronic/theme/src/sass/demo/default/style.scss";

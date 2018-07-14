@@ -1,0 +1,31 @@
+.sidebar-user-material .category-content {
+    background: url(https://res.cloudinary.com/ahamlearning/image/upload/c_thumb,h_1119,w_1493/c_thumb,h_1119,l_black_opacity_90_kvowki,w_1493/v1466164427/aham_icon_m6ljr5.png) center center no-repeat;
+}
+
+.navbar-brand > img {
+    margin-top: -7px;
+    height: 37px;
+}
+
+.header-highlight .navbar-header:not([class*=bg-]) {
+    background-color: #fff;
+}
+
+.panel-footer {
+  padding-left: 8px;
+}
+
+label {
+    font-weight: 500;
+}
+
+.disable-cover {
+    background-color: #fff;
+    height: 100%;
+    left: 0;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90); /*Yay for old IE support...*/
+}

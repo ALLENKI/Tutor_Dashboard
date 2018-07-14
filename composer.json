@@ -1,0 +1,102 @@
+{
+  "name": "laravel/laravel",
+  "description": "The Laravel Framework.",
+  "keywords": ["framework", "laravel"],
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": ">=7.0.0",
+    "adamwathan/bootforms": "^0.9.0",
+    "algolia/algoliasearch-client-php": "^1.18",
+    "aws/aws-sdk-php-laravel": "^3.1",
+    "barryvdh/laravel-cors": "^0.9.2",
+    "barryvdh/laravel-debugbar": "^2.2",
+    "bosnadev/repositories": "^0.13.0",
+    "cartalyst/sentinel": "^2.0",
+    "cloudinary/cloudinary_php": "dev-master",
+    "cviebrock/eloquent-sluggable": "^4.0",
+    "cviebrock/eloquent-taggable": "^3.2",
+    "darrylkuhn/dialect": "^1.0",
+    "dingo/api": "1.0.x@dev",
+    "doctrine/dbal": "^2.5",
+    "dompdf/dompdf": "^0.8.2",
+    "everyman/neo4jphp": "dev-master",
+    "facebook/graph-sdk": "^5.4",
+    "fideloper/proxy": "~3.3",
+    "fzaninotto/faker": "^1.5",
+    "google/apiclient": "1.0.*@beta",
+    "gorkalaucirica/hipchat-v2-api-client": "^1.5",
+    "graphaware/neo4j-php-client": "^4.8",
+    "guzzlehttp/guzzle": "~5.3|~6.0",
+    "intervention/image": "^2.3",
+    "intervention/imagecache": "^2.3",
+    "ircmaxell/password-compat": "^1.0",
+    "karl456/presenter": "~2.3",
+    "kint-php/kint": "^1.1",
+    "kreait/firebase-php": "3.0.1",
+    "laracasts/flash": "^2.0",
+    "laravel/framework": "5.5.*",
+    "laravel/horizon": "^1.0",
+    "laravel/tinker": "~1.0",
+    "laravelcollective/html": "^5.2",
+    "league/flysystem-aws-s3-v3": "^1.0",
+    "league/fractal": "^0.13.0",
+    "maatwebsite/excel": "^2.1",
+    "nategood/httpful": "^0.2.20",
+    "nesbot/carbon": "^1.21",
+    "paragraph1/php-fcm": "^0.7.0",
+    "pda/pheanstalk": "~3.0",
+    "predis/predis": "^1.1",
+    "razorpay/razorpay": "^2.2",
+    "rjvim/connect-sentinel-5.4": "dev-master",
+    "sentry/sentry": "^0.22.0",
+    "sentry/sentry-laravel": "^0.3.0",
+    "spatie/laravel-backup": "^3.4",
+    "spatie/laravel-tags": "^2.0",
+    "stolz/assets": "^0.1.8",
+    "tubalmartin/cssmin": "~2.4",
+    "tymon/jwt-auth": "0.5.*",
+    "venturecraft/revisionable": "^1.28"
+  },
+  "require-dev": {
+    "filp/whoops": "~2.0",
+    "fzaninotto/faker": "~1.4",
+    "mockery/mockery": "~1.0",
+    "phpunit/phpunit": "~6.0",
+    "symfony/css-selector": "2.8.*|3.0.*",
+    "symfony/dom-crawler": "2.8.*|3.0.*",
+    "laracasts/generators": "dev-master as 1.1.4"
+  },
+  "autoload": {
+    "classmap": ["database/seeds", "database/factories"],
+    "psr-4": {
+      "Aham\\": "app/"
+    },
+    "files": ["app/helpers.php"]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "dont-discover": []
+    }
+  },
+  "scripts": {
+    "post-root-package-install": [
+      "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+    ],
+    "post-create-project-cmd": ["@php artisan key:generate"],
+    "post-autoload-dump": [
+      "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+      "@php artisan package:discover"
+    ]
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
